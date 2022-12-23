@@ -1,0 +1,15 @@
+import React, { Component } from "react";
+
+export class Copyright extends Component {
+    render(){
+        const date = new Date();
+        const year = date.getFullYear();
+
+        return (
+            <div className="text-center">
+                Copyright &copy; { year * 1 } <em>ReactMemo</em> all right reserved.
+            </div>
+            /* year * 1 처럼 연산이 가능함 */
+        );
+    }
+}

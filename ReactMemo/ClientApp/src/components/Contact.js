@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { ContactDetails } from "./ContactDetails/ContactDetails";
 
 export class Contact extends Component {
     render(){
@@ -6,6 +7,7 @@ export class Contact extends Component {
             <div>
                 <h1>연락처</h1>
                 <p>연락처 들어오는 곳...</p>
+                <ContactDetails></ContactDetails>
             </div>
         );
     }
