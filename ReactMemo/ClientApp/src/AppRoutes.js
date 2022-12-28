@@ -10,6 +10,7 @@ import OnClickEventHandler from "./Sample/OnClickEventHandler";
 import OneWayBinding from "./components/Demos/OneWayBinding/OneWayBinding";
 import TodoListInMemory from "./components/TodoListInMemory";
 import FunctionStateDemo from "./Sample/FunctionStateDemo";
+import UseEffectDemo from "./Sample/UseEffectDemo";
 
 const AppRoutes = [
   {
@@ -21,12 +22,12 @@ const AppRoutes = [
     element: <Counter />
   },
   {
-    path: '/fetch-data',
-    element: <FetchData />
+      path: '/About',
+      element: <About />
   },
   {
-    path: '/About',
-      element: <About />
+    path: '/fetch-data',
+    element: <FetchData />
   },
   {
     path: '/Contact',
@@ -59,6 +60,10 @@ const AppRoutes = [
   {
       path: '/FunctionStateDemo',
       element: <FunctionStateDemo />
+  },
+  {
+      path: '/UseEffectDemo',
+      element: <UseEffectDemo />
   }
 ];
 
